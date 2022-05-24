@@ -1,0 +1,97 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #A0E6FF;
+}
+
+nav#navbar {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    margin: 0;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+nav#navbar ul {
+    display: flex;
+    margin: 10px 0px 10px auto;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 60%;
+}
+
+nav#navbar ul li a {
+    color: black;
+    opacity: 0.7;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav#navbar ul li a:hover {
+    color: lightgreen;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+header.img {
+    height: 300px;
+    background-image: url("https://gfx.rozrywka.radiozet.pl/var/radiozet/storage/images/muzyka/dawid-podsiadlo-malomiasteczkowy-nowa-plyta-premiera-albumu/803512-1-pol-PL/Dawid-Podsiadlo-wydal-nowa-plyte.-Album-Malomiasteczkowy-juz-dostepny_size_1240x516.jpg");
+    background-size: cover;
+}
+
+article {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+section > h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 4.5rem;
+}
+
+div[class*=-text] {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.15rem;
+    text-align: justify;
+}
+
+#albums {
+    background-color: black;
+    color: white;
+}
+
+.albums-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.albums-list .album {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+.albums-list .album img {
+    width: 400px;
+}
